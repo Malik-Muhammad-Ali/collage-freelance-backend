@@ -20,7 +20,7 @@ app.use('/projects', projectRoutes);
 app.use('/applications', applicationRoutes);
 
 app.get('/', (req, res) => {
-  res.send('API is running...');
+  res.send('API is running');
 });
 
 // Start Server
